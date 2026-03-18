@@ -1,0 +1,21 @@
+{
+  "name": "@kszongic/glob-size-cli",
+  "version": "1.0.0",
+  "description": "Show total file size matching glob patterns from the command line",
+  "main": "index.js",
+  "bin": {
+    "glob-size": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js '*.json'"
+  },
+  "keywords": ["glob", "size", "filesize", "disk", "cli", "du", "pattern"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/glob-size-cli"
+  },
+  "homepage": "https://github.com/kszongic/glob-size-cli#readme",
+  "files": ["index.js", "README.md", "LICENSE"]
+}
